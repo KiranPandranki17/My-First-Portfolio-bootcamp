@@ -15,7 +15,6 @@ The portfolio includes the following sections:
 * Primary Portfolio Image: Larger than other images to highlight a featured project.
 * Clickable Portfolio Images: Images linking to deployed applications/projects.
 * Responsiveness: The site must be responsive and work well on various screens and devices.
-- Placeholders: Placeholder content and images are acceptable, as the site will be updated as the portfolio progresses.
 
 ### How to Run
 Website Link: https://kiranpandranki17.github.io/My-First-Portfolio-bootcamp/
