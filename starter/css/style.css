@@ -1,10 +1,10 @@
 * {
-  box-sizing: border-box;
+  box-sizing: border-box; /* Box sizing for all elements */
 }
 
 h1,
 h2,
-h3,
+h3, /* Reset margin for heading elements and paragraphs */
 h4,
 h5,
 h6 {
@@ -15,6 +15,8 @@ p {
   margin: 0;
 }
 
+/* Reset margin and padding for the body, set font family, and line height */
+
 body {
   margin: 0;
   padding: 0;
@@ -23,6 +25,7 @@ body {
   line-height: 1.5;
 }
 
+/* Styling for the header section */
 header {
   padding: 30px 45px;
   background-color: black;
@@ -31,17 +34,21 @@ header {
   flex-wrap: wrap;
 }
 
+/* Styling for bio section in the header */
 .mybio {
   align-items: center;
   display: flex;
 }
 
+/* Styling for the image inside .mybio using CSS selectors*/
 img[src*="mr.bean"] {
   width: 50px;
   height: 68px;
   border-bottom-left-radius: 5px;
   border-top-left-radius: 5px;
 }
+
+/* Styling for the name inside .mybio */
 
 .myname {
   background-color: rgb(26, 171, 196);
@@ -58,6 +65,9 @@ header nav {
   margin: 10px 0;
 }
 
+
+/* Styling for navigation links */
+
 header nav li {
   text-decoration: none;
   display: inline-block;
@@ -67,12 +77,14 @@ header nav li {
   border-bottom: 2px solid rgb(26, 171, 196);
 }
 
-
+/* Styling for hero banner section */
 .hero-banner {
   background-image: url(../images/02-hero-bg.jpg);
   height: 200px;
   background-size: cover;
 }
+
+/* Styling for subtitle section */
 .subtitle {
   background-color: rgb(26, 171, 196);
   display: inline-block;
@@ -81,16 +93,22 @@ header nav li {
   opacity: 0.8;
 }
 
+/* Styling for page layout */
+
 .page-wrapper {
   display: flex;
   flex-direction: column;
 }
+
+/* Styling for sections within the page */
 
 .page-section {
   display: flex;
   justify-content: space-around;
   margin: 20px;
 }
+
+/* Styling for left section */
 .left-section {
   width: 150px;
   height: auto;
@@ -111,17 +129,22 @@ header nav li {
   flex-wrap: wrap;
 }
 
+/* Styling for paragraph within right section */
+
 .right-section p {
   text-align: justify;
   position: relative;
   top: 10px;
 }
+
+
 .image {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
+/* Styling for the grid layout within right section*/
 #grid {
   display: grid;
   grid-template-rows: 300px 300px 300px;
@@ -134,6 +157,7 @@ header nav li {
   column-gap: 5px;
 }
 
+/* Styling for grid area items using ID and CSS selectors*/
 #top {
   grid-area: top;
   border: 5px solid rgb(5, 186, 174);
@@ -159,6 +183,8 @@ img[src*="portfolio-4"] {
   border: 5px solid rgb(5, 186, 174);
 }
 
+/* Styling for contact section */
+
 #contact ul {
   text-align: center;
 }
@@ -171,6 +197,7 @@ img[src*="portfolio-4"] {
   border-bottom: 2px solid rgb(26, 171, 196);
 }
 
+/* Styling for images with hover effect */
 img {
   opacity: 1;
   transition: 0.5s ease;
@@ -181,6 +208,7 @@ img:hover {
   opacity: 0.3;
 }
 
+/* Styling for overlay content on images in grid area */
 .overlay {
   position: relative;
 }
@@ -203,13 +231,18 @@ img:hover {
   opacity: 0.8;
 }
 
+
+/* Media query for screens with max width of 700px */
 @media screen and (max-width: 700px) {
+
+  /* Adjust font size for paragraphs and headings */
   p,
   h2 {
     font-size: medium;
     font-family: "Courier New", Courier, monospace;
   }
-
+  
+ /* Change grid layout for smaller screens */
   #grid {
     display: grid;
     grid-template-rows: 300px 300px 300px 300px 300px;
