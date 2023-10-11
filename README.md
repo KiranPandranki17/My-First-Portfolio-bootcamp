@@ -6,16 +6,16 @@ This project is a web development portfolio showcasing my work, created using on
 
 The portfolio includes the following sections:
 
-Developer's Name: Clearly displayed at the top of the portfolio.
-Recent Photo: A recent photograph of the developer.
-About Me Section: A brief introduction to the developer.
-Portfolio/Showcase: Displaying various web development projects.
-Contact Information: Email and phone number for contact.
-Navigation Links: Links in the navigation bar that smoothly scroll to corresponding sections.
-Primary Portfolio Image: Larger than other images to highlight a featured project.
-Clickable Portfolio Images: Images linking to deployed applications/projects.
-Responsiveness: The site must be responsive and work well on various screens and devices.
-Placeholders: Placeholder content and images are acceptable, as the site will be updated as the portfolio progresses.
+*Developer's Name: Clearly displayed at the top of the portfolio.
+*Recent Photo: A recent photograph of the developer.
+*About Me Section: A brief introduction to the developer.
+*Portfolio/Showcase: Displaying various web development projects.
+*Contact Information: Email and phone number for contact.
+*Navigation Links: Links in the navigation bar that smoothly scroll to corresponding sections.
+*Primary Portfolio Image: Larger than other images to highlight a featured project.
+*Clickable Portfolio Images: Images linking to deployed applications/projects.
+*Responsiveness: The site must be responsive and work well on various screens and devices.
+*Placeholders: Placeholder content and images are acceptable, as the site will be updated as the portfolio progresses.
 
 ### How to Run
 Website Link: https://kiranpandranki17.github.io/My-First-Portfolio-bootcamp/
