@@ -18,7 +18,10 @@ Responsiveness: The site must be responsive and work well on various screens and
 Placeholders: Placeholder content and images are acceptable, as the site will be updated as the portfolio progresses.
 
 ### How to Run
-Simply open the index.html file in your web browser to view the portfolio.
+Website Link: https://kiranpandranki17.github.io/My-First-Portfolio-bootcamp/
+### Screenshot
+![Screenshot (119)](https://github.com/KiranPandranki17/My-First-Portfolio-bootcamp/assets/140180379/ef67adc2-9e1c-4ef4-b51f-15b35cba568b)
+![Screenshot (120)](https://github.com/KiranPandranki17/My-First-Portfolio-bootcamp/assets/140180379/31341684-7d10-4db1-a646-61c94c94ab12)
 
 ### Technologies Used
 HTML
