@@ -1,6 +1,6 @@
 # Challenge: Portfolio
 ### Description
-This project is a web development portfolio showcasing my work, created using only HTML and advanced CSS techniques, including flexbox, CSS Grid, media queries, and CSS variables.
+This project is a web development portfolio showcasing my work, created using only HTML and advanced CSS techniques, including flexbox, CSS Grid, media queries, and CSS Selectors.
 
 ### Acceptance Criteria
 
@@ -20,12 +20,12 @@ Placeholders: Placeholder content and images are acceptable, as the site will be
 ### How to Run
 Website Link: https://kiranpandranki17.github.io/My-First-Portfolio-bootcamp/
 ### Screenshot
-![Screenshot (119)](https://github.com/KiranPandranki17/My-First-Portfolio-bootcamp/assets/140180379/ef67adc2-9e1c-4ef4-b51f-15b35cba568b)
-![Screenshot (120)](https://github.com/KiranPandranki17/My-First-Portfolio-bootcamp/assets/140180379/31341684-7d10-4db1-a646-61c94c94ab12)
+![Screenshot (121)](https://github.com/KiranPandranki17/My-First-Portfolio-bootcamp/assets/140180379/c3e697bb-ff14-414d-80e4-09e297a1bc76)
+![Screenshot (122)](https://github.com/KiranPandranki17/My-First-Portfolio-bootcamp/assets/140180379/738f5a36-6524-4198-9404-752a8d1c16ff)
 
 ### Technologies Used
 HTML
-CSS (Flexbox, CSS Grid, Media Queries, CSS Variables)
+CSS (Flexbox, CSS Grid, Media Queries, CSS Selectors)
 
 ### License
 This project is licensed under the MIT License.
