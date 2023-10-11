@@ -66,3 +66,161 @@ header nav li {
   color: rgb(26, 171, 196);
   border-bottom: 2px solid rgb(26, 171, 196);
 }
+
+
+.hero-banner {
+  background-image: url(../images/02-hero-bg.jpg);
+  height: 200px;
+  background-size: cover;
+}
+.subtitle {
+  background-color: rgb(26, 171, 196);
+  display: inline-block;
+  position: absolute;
+  overflow: auto;
+  opacity: 0.8;
+}
+
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.page-section {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+.left-section {
+  width: 150px;
+  height: auto;
+  margin: 10px;
+  padding-right: 10px;
+  border-right: 5px solid rgb(12, 201, 166);
+  position: relative;
+  flex-grow: -1;
+  text-align: right;
+}
+
+.right-section {
+  height: auto;
+  text-align: justify;
+  padding-left: 10px;
+  flex-grow: 1;
+  width: auto;
+  flex-wrap: wrap;
+}
+
+.right-section p {
+  text-align: justify;
+  position: relative;
+  top: 10px;
+}
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#grid {
+  display: grid;
+  grid-template-rows: 300px 300px 300px;
+  grid-template-columns: auto auto;
+  grid-template-areas:
+    "top top"
+    "middle-left middle-right"
+    "bottom-left bottom-right";
+  row-gap: 5px;
+  column-gap: 5px;
+}
+
+#top {
+  grid-area: top;
+  border: 5px solid rgb(5, 186, 174);
+}
+
+img[src*="portfolio-1"] {
+  grid-area: middle-left;
+  border: 5px solid rgb(5, 186, 174);
+}
+
+img[src*="portfolio-2"] {
+  grid-area: middle-right;
+  border: 5px solid rgb(5, 186, 174);
+}
+
+img[src*="portfolio-3"] {
+  grid-area: bottom-left;
+  border: 5px solid rgb(5, 186, 174);
+}
+
+img[src*="portfolio-4"] {
+  grid-area: bottom-right;
+  border: 5px solid rgb(5, 186, 174);
+}
+
+#contact ul {
+  text-align: center;
+}
+#contact ul li {
+  text-decoration: none;
+  display: inline-block;
+  padding: 0 5px;
+  margin: 0 5px;
+  color: rgb(26, 171, 196);
+  border-bottom: 2px solid rgb(26, 171, 196);
+}
+
+img {
+  opacity: 1;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+img:hover {
+  transition: 0.5s ease;
+  opacity: 0.3;
+}
+
+.overlay {
+  position: relative;
+}
+
+.overlay-text {
+  background-color: rgba(255, 255, 255, 1);
+  padding: 20px;
+  text-align: center;
+  position: absolute;
+  bottom: 20%;
+  left: 0.5px;
+  background-color: rgb(5, 186, 174);
+  font-weight: bold;
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#contact {
+  overflow: auto;
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 700px) {
+  p,
+  h2 {
+    font-size: medium;
+    font-family: "Courier New", Courier, monospace;
+  }
+
+  #grid {
+    display: grid;
+    grid-template-rows: 300px 300px 300px 300px 300px;
+    grid-template-columns: auto;
+    grid-template-areas:
+      "top"
+      "middle-left"
+      "middle-right"
+      "bottom-left"
+      "bottom-right";
+    row-gap: 5px;
+    column-gap: 5px;
+  }
+}
