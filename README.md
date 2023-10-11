@@ -2,7 +2,7 @@
 ### Description
 This project is a web development portfolio showcasing my work, created using only HTML and advanced CSS techniques, including flexbox, CSS Grid, media queries, and CSS variables.
 
-###Acceptance Criteria
+### Acceptance Criteria
 
 The portfolio includes the following sections:
 
@@ -17,14 +17,14 @@ Clickable Portfolio Images: Images linking to deployed applications/projects.
 Responsiveness: The site must be responsive and work well on various screens and devices.
 Placeholders: Placeholder content and images are acceptable, as the site will be updated as the portfolio progresses.
 
-###How to Run
+### How to Run
 Simply open the index.html file in your web browser to view the portfolio.
 
-###Technologies Used
+### Technologies Used
 HTML
 CSS (Flexbox, CSS Grid, Media Queries, CSS Variables)
 
-###License
+### License
 This project is licensed under the MIT License.
 
 Note: This portfolio is a work in progress and will be updated with more projects and information as my web development skills grow.
