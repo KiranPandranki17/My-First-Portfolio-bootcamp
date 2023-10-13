@@ -98,14 +98,15 @@ header nav li {
 .page-wrapper {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
 }
 
 /* Styling for sections within the page */
 
 .page-section {
   display: flex;
-  justify-content: space-around;
   margin: 20px;
+  justify-content: space-between;
 }
 
 /* Styling for left section */
@@ -115,9 +116,9 @@ header nav li {
   margin: 10px;
   padding-right: 10px;
   border-right: 5px solid rgb(12, 201, 166);
-  position: relative;
   flex-grow: -1;
   text-align: right;
+  flex-shrink: 0;
 }
 
 .right-section {
